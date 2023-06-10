@@ -1,0 +1,40 @@
+<hybrisconfig xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='../bin/platform/resources/schemas/extensions.xsd'>
+  <extensions>
+    <path dir='${HYBRIS_BIN_DIR}' autoload='false' />
+    
+    <extension dir="/hybris/hybris/bin/custom/customextension"/>
+    
+    <extension name='apiregistryservices' />
+    <extension name='classificationgroupsservices' />
+    <extension name='basecommerce' />
+    <extension name='customerreview' />
+    <extension name='payment' />
+    <extension name='promotions' />
+    <extension name='voucher' />
+    <extension name='cockpit' />
+    <extension name='commercefacades' />
+    <extension name='commerceservices' />
+    <extension name='commercewebservicescommons' />
+    <extension name='ycommercewebservices' />
+    <extension name='ycommercewebservicestest' />
+    <extension name='yoccaddon' />
+    <extension name='acceleratorcms' />
+    <extension name='acceleratorfacades' />
+    <extension name='acceleratorservices' />
+    <extension name='acceleratorwebservicesaddon' />
+    <extension name='addonsupport' />
+    <extension name='ticketsystem' />
+    <extension name='ordermanagementfacades' />
+    <extension name='alluicommons' />
+    <extension name='embeddedserver' />
+    <extension name='springintegrationlibs' />
+    <extension name='tomcatembeddedserver' />
+    <extension name='solrfacetsearch' />
+    <extension name='solrserver' />
+    <extension name='cms2' />
+    <extension name='cms2lib' />
+    <extension name='cmsfacades' />
+    <extension name='swaggerintegration' />
+    <extension name='webservicescommons' />
+  </extensions>
+</hybrisconfig>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="searchservicesspring" name="searchservicesspring" removed="false">
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/resources/searchservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/resources/searchservices-spring-core.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/resources/searchservices-spring-admin.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/resources/searchservices-spring-index.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/resources/searchservices-spring-indexer.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/resources/searchservices-spring-search.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/resources/searchservices-spring-suggest.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/resources/searchservices-spring-spi.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/resources/searchservices-spring-test.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices">
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/acceleratoraddon/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/acceleratoraddon/web/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/acceleratoraddon/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/backoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/commonweb/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/commonweb/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/commonweb/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/search-services/searchservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="swaggerintegrationspring" name="swaggerintegrationspring" removed="false">
+          <dependency>platformspring==platform</dependency>
+          <dependency>webservicescommonsspring==webservicescommons</dependency>
+          <file>file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/project.properties</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/resources/swaggerintegration-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration">
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/acceleratoraddon/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/acceleratoraddon/web/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/acceleratoraddon/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/backoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/commonweb/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/commonweb/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/commonweb/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../bin/modules/web-services-commons/swaggerintegration/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="module" module-name="webservicescommons" exported="" />
+  </component>
+</module>

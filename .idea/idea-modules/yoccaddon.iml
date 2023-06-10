@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="yoccaddonspring" name="yoccaddonspring" removed="false">
+          <dependency>addonsupportspring==addonsupport</dependency>
+          <dependency>commercewebservicescommonsspring==commercewebservicescommons</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/project.properties</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/resources/yoccaddon-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/acceleratoraddon/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/acceleratoraddon/web/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/acceleratoraddon/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/backoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/commonweb/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/commonweb/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/commonweb/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/yoccaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="commercewebservicescommons" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

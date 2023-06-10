@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="acceleratorcmsspring" name="acceleratorcmsspring" removed="false">
+          <dependency>acceleratorservicesspring==acceleratorservices</dependency>
+          <dependency>cms2libspring==cms2lib</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/project.properties</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/resources/acceleratorcms-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/resources/acceleratorcms-cache-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms">
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/acceleratoraddon/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/acceleratoraddon/web/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/acceleratoraddon/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/backoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/commonweb/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/commonweb/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/commonweb/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/core-accelerator/acceleratorcms/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="acceleratorservices" exported="" />
+    <orderEntry type="module" module-name="cms2lib" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/resources" />
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/src" />
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/groovysrc" />
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/kotlinsrc" />
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/scalasrc" />
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/gensrc" />
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/src" />
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/groovysrc" />
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/kotlinsrc" />
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/scalasrc" />
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/gensrc" />
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/backoffice/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="ycommercewebservicesspring" name="ycommercewebservicesspring" removed="false">
+          <dependency>acceleratorwebservicesaddonspring==acceleratorwebservicesaddon</dependency>
+          <dependency>commercefacadesspring==commercefacades</dependency>
+          <dependency>commercewebservicescommonsspring==commercewebservicescommons</dependency>
+          <dependency>ordermanagementfacadesspring==ordermanagementfacades</dependency>
+          <dependency>platformspring==platform</dependency>
+          <dependency>yoccaddonspring==yoccaddon</dependency>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/resources/ycommercewebservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/ycommercewebservices-web-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v1-web-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v1/error-config-v1-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v1/filter-config-v1-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v1/security-v1-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v1/validators-v1-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v2-web-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v2/dto-level-mappings-v2-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v2/dto-mappings-v2-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v2/jaxb-converters-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v2/error-config-v2-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v2/filter-config-v2-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v2/security-v2-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/v2/validators-v2-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/common-web-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/common/xstream-converters-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/common/cache-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/common/error-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/common/filter-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/config/common/security-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices">
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/backoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../bin/modules/commerce-services/deprecated/ycommercewebservices/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="acceleratorwebservicesaddon" exported="" />
+    <orderEntry type="module" module-name="commercefacades" exported="" />
+    <orderEntry type="module" module-name="commercewebservicescommons" exported="" />
+    <orderEntry type="module" module-name="ordermanagementfacades" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="module" module-name="yoccaddon" exported="" />
+  </component>
+</module>
