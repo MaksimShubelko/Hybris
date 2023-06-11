@@ -3,7 +3,9 @@
     <path dir='${HYBRIS_BIN_DIR}' autoload='false' />
     
     <extension dir="/hybris/hybris/bin/custom/customextension"/>
-    
+
+    <extension name="backoffice"/>
+    <extension name="platformbackoffice"/>
     <extension name='apiregistryservices' />
     <extension name='classificationgroupsservices' />
     <extension name='basecommerce' />

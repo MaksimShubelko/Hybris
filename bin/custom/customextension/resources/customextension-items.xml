@@ -42,17 +42,17 @@
 					<modifiers read="true" write="true" search="true" optional="false"/>
 				</sourceElement>
 				<targetElement type="Item2" qualifier="item2" cardinality="many">
-					<modifiers read="true" write="true" search="true" optional="false"/>
+					<modifiers read="true" write="true" search="true" optional="true"/>
 				</targetElement>
 			</relation>
 
 			<relation code="Many2many" localized="false">
 				<deployment table="item2item" typecode="11110"/>
 				<sourceElement type="Item3" qualifier="items3" cardinality="many">
-					<modifiers read="true" write="true" search="true" optional="false"/>
+					<modifiers read="true" write="true" search="true" optional="true"/>
 				</sourceElement>
 				<targetElement type="Item4" qualifier="items4" cardinality="many">
-					<modifiers read="true" write="true" search="true" optional="false"/>
+					<modifiers read="true" write="true" search="true" optional="true"/>
 				</targetElement>
 			</relation>
 		</relations>
@@ -62,23 +62,23 @@
 				<deployment table="allTypesContainer" typecode="11111"/>
 				<attributes>
 					<attribute qualifier="name" type="java.lang.String">
-						<modifiers read="true" write="true" search="true" unique="true"/>
+						<modifiers read="true" write="true" search="true" unique="true" optional="true"/>
 						<persistence type="property"/>
 					</attribute>
 					<attribute qualifier="nonDynamicEnum" type="NonDynamicEnum">
-						<modifiers read="true" write="true" search="true"/>
+						<modifiers read="true" write="true" search="true" optional="true"/>
 						<persistence type="property"/>
 					</attribute>
 					<attribute qualifier="map" type="Map">
-						<modifiers read="true" write="true" search="true"/>
+						<modifiers read="true" write="true" search="true" optional="true"/>
 						<persistence type="property"/>
 					</attribute>
 					<attribute qualifier="listOfStrings" type="ListOfStrings">
-						<modifiers read="true" write="true" search="true"/>
+						<modifiers read="true" write="true" search="true" optional="true"/>
 						<persistence type="property"/>
 					</attribute>
 					<attribute qualifier="one2one" type="Item4">
-						<modifiers read="true" write="true" search="true"/>
+						<modifiers read="true" write="true" search="true" optional="true"/>
 						<persistence type="property"/>
 					</attribute>
 					<attribute qualifier="many2many" type="Many2many">
@@ -91,11 +91,11 @@
 				<deployment table="item1" typecode="11112"/>
 				<attributes>
 					<attribute qualifier="name" type="java.lang.String">
-						<modifiers read="true" write="true" search="true" unique="true"/>
+						<modifiers read="true" write="true" search="true" unique="true" optional="true"/>
 						<persistence type="property"/>
 					</attribute>
-					<attribute qualifier="item4" type="item4">
-						<modifiers read="true" write="true" search="true" unique="true"/>
+					<attribute qualifier="item4" type="Item4">
+						<modifiers read="true" write="true" search="true" unique="true" optional="true"/>
 						<persistence type="property"/>
 					</attribute>
 				</attributes>
@@ -104,8 +104,8 @@
 			<itemtype code="Item2">
 				<deployment table="item2" typecode="11113"/>
 				<attributes>
-					<attribute qualifier="quantity" type="java.lang.Long">
-						<modifiers read="true" write="true" search="true"/>
+					<attribute qualifier="name" type="java.lang.String">
+						<modifiers read="true" write="true" search="true" optional="true"/>
 						<persistence type="property"/>
 					</attribute>
 				</attributes>
@@ -115,7 +115,7 @@
 				<deployment table="item3" typecode="11114"/>
 				<attributes>
 					<attribute qualifier="name" type="java.lang.String">
-						<modifiers read="true" write="true" search="true" unique="true"/>
+						<modifiers read="true" write="true" search="true" unique="true" optional="true"/>
 						<persistence type="property"/>
 					</attribute>
 				</attributes>
@@ -124,8 +124,8 @@
 			<itemtype code="Item4">
 				<deployment table="item4" typecode="11115"/>
 				<attributes>
-					<attribute qualifier="quantity" type="java.lang.Long">
-						<modifiers read="true" write="true" search="true"/>
+					<attribute qualifier="name" type="java.lang.String">
+						<modifiers read="true" write="true" search="true" unique="true" optional="true"/>
 						<persistence type="property"/>
 					</attribute>
 				</attributes>

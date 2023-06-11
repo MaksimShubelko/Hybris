@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Jun 11, 2023, 2:53:37 AM                    ---
+ * --- Generated at Jun 11, 2023, 1:32:29 PM                    ---
  * ----------------------------------------------------------------
  */
 package org.customextension.jalo;
@@ -29,8 +29,8 @@ import org.customextension.jalo.Item3;
 @SuppressWarnings({"unused","cast"})
 public class Item4 extends GenericItem
 {
-	/** Qualifier of the <code>Item4.quantity</code> attribute **/
-	public static final String QUANTITY = "quantity";
+	/** Qualifier of the <code>Item4.name</code> attribute **/
+	public static final String NAME = "name";
 	/** Qualifier of the <code>Item4.items3</code> attribute **/
 	public static final String ITEMS3 = "items3";
 	/** Relation ordering override parameter constants for Many2many from ((customextension))*/
@@ -42,7 +42,7 @@ public class Item4 extends GenericItem
 	static
 	{
 		final Map<String, AttributeMode> tmp = new HashMap<String, AttributeMode>();
-		tmp.put(QUANTITY, AttributeMode.INITIAL);
+		tmp.put(NAME, AttributeMode.INITIAL);
 		DEFAULT_INITIAL_ATTRIBUTES = Collections.unmodifiableMap(tmp);
 	}
 	@Override
@@ -191,76 +191,39 @@ public class Item4 extends GenericItem
 	}
 	
 	/**
-	 * <i>Generated method</i> - Getter of the <code>Item4.quantity</code> attribute.
-	 * @return the quantity
+	 * <i>Generated method</i> - Getter of the <code>Item4.name</code> attribute.
+	 * @return the name
 	 */
-	public Long getQuantity(final SessionContext ctx)
+	public String getName(final SessionContext ctx)
 	{
-		return (Long)getProperty( ctx, "quantity".intern());
+		return (String)getProperty( ctx, "name".intern());
 	}
 	
 	/**
-	 * <i>Generated method</i> - Getter of the <code>Item4.quantity</code> attribute.
-	 * @return the quantity
+	 * <i>Generated method</i> - Getter of the <code>Item4.name</code> attribute.
+	 * @return the name
 	 */
-	public Long getQuantity()
+	public String getName()
 	{
-		return getQuantity( getSession().getSessionContext() );
+		return getName( getSession().getSessionContext() );
 	}
 	
 	/**
-	 * <i>Generated method</i> - Getter of the <code>Item4.quantity</code> attribute. 
-	 * @return the quantity
+	 * <i>Generated method</i> - Setter of the <code>Item4.name</code> attribute. 
+	 * @param value the name
 	 */
-	public long getQuantityAsPrimitive(final SessionContext ctx)
+	public void setName(final SessionContext ctx, final String value)
 	{
-		Long value = getQuantity( ctx );
-		return value != null ? value.longValue() : 0;
+		setProperty(ctx, "name".intern(),value);
 	}
 	
 	/**
-	 * <i>Generated method</i> - Getter of the <code>Item4.quantity</code> attribute. 
-	 * @return the quantity
+	 * <i>Generated method</i> - Setter of the <code>Item4.name</code> attribute. 
+	 * @param value the name
 	 */
-	public long getQuantityAsPrimitive()
+	public void setName(final String value)
 	{
-		return getQuantityAsPrimitive( getSession().getSessionContext() );
-	}
-	
-	/**
-	 * <i>Generated method</i> - Setter of the <code>Item4.quantity</code> attribute. 
-	 * @param value the quantity
-	 */
-	public void setQuantity(final SessionContext ctx, final Long value)
-	{
-		setProperty(ctx, "quantity".intern(),value);
-	}
-	
-	/**
-	 * <i>Generated method</i> - Setter of the <code>Item4.quantity</code> attribute. 
-	 * @param value the quantity
-	 */
-	public void setQuantity(final Long value)
-	{
-		setQuantity( getSession().getSessionContext(), value );
-	}
-	
-	/**
-	 * <i>Generated method</i> - Setter of the <code>Item4.quantity</code> attribute. 
-	 * @param value the quantity
-	 */
-	public void setQuantity(final SessionContext ctx, final long value)
-	{
-		setQuantity( ctx,Long.valueOf( value ) );
-	}
-	
-	/**
-	 * <i>Generated method</i> - Setter of the <code>Item4.quantity</code> attribute. 
-	 * @param value the quantity
-	 */
-	public void setQuantity(final long value)
-	{
-		setQuantity( getSession().getSessionContext(), value );
+		setName( getSession().getSessionContext(), value );
 	}
 	
 }
