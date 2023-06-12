@@ -1,0 +1,12 @@
+INSERT_UPDATE Item4; name[unique = true]
+                   ; name_1
+                   ; name_2
+
+INSERT_UPDATE Item3; name[unique = true]
+                   ; name_3
+
+INSERT_UPDATE Many2many; source(name)[unique = true]; target(name)[unique = true]
+                       ; name_3                     ; name_1
+
+INSERT_UPDATE AllTypesContainer; name[unique = true]       ; nonDynamicEnum(code); map               ; listOfStrings    ; one2one(name); item3(name); many2many(source(name), target(name))
+                               ; name_1                    ; value               ; key_1->1,key_2->2 ; el_1,el_2        ; name_1       ; name_1     ; name_3: name_1

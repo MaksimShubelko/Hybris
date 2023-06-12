@@ -6,35 +6,130 @@
 	ATTENTION: This is just an example file. You have to edit it according to your needs.
 -->
 
-<items 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<items 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			xsi:noNamespaceSchemaLocation="items.xsd">
 
-	<itemtypes>
-<!--
-		<itemtype generate="true"
-		   code="MyProduct"
-		   jaloclass="org.customextension.jalo.MyProduct"
-		   extends="Product"
-		   autocreate="true"
-	   >
-			<attributes>
-				<attribute qualifier="myExampleInitialStringField" type="java.lang.String">
-					<description>My Example Initial String Value</description>
-					<modifiers initial="true"/>
-					<persistence type="property"/>
-				</attribute>
+		<collectiontypes>
+			<collectiontype code="ListOfStrings" elementtype="java.lang.String" type="list"/>
+		</collectiontypes>
 
-				<attribute qualifier="myExampleBooleanField" type="java.lang.Boolean">
-					<description>Example Initial Boolean Field</description>
-               <persistence type="property"/>
-				</attribute>
+		<enumtypes>
+			<enumtype code="NonDynamicEnum">
+				<value code="value"/>
+			</enumtype>
 
-				<attribute qualifier="media" type="Media">
-					<persistence type="property"/>
-				</attribute>
+			<enumtype code="DynamicEnum" dynamic="true">
+				<value code="value"/>
+			</enumtype>
+		</enumtypes>
 
-			</attributes>
-		</itemtype>
--->
-	</itemtypes>
+		<maptypes>
+			<maptype code="Map" argumenttype="java.lang.String" returntype="java.lang.Integer"/>
+		</maptypes>
+
+		<relations>
+			<relation code="ItemAllTypesContainerRelation" localized="false">
+				<sourceElement type="AllTypesContainer" qualifier="allTypesContainer" cardinality="one">
+					<modifiers read="true" write="true" search="true" optional="true"/>
+				</sourceElement>
+				<targetElement type="Item3" qualifier="item3" cardinality="many">
+					<modifiers read="true" write="true" search="true" optional="true"/>
+				</targetElement>
+			</relation>
+
+			<relation code="One2many" localized="false">
+				<sourceElement type="Item1" qualifier="item1" cardinality="one">
+					<modifiers read="true" write="true" search="true" optional="false"/>
+				</sourceElement>
+				<targetElement type="Item2" qualifier="item2" cardinality="many">
+					<modifiers read="true" write="true" search="true" optional="true"/>
+				</targetElement>
+			</relation>
+
+			<relation code="Many2many" localized="false">
+				<deployment table="item2item" typecode="11110"/>
+				<sourceElement type="Item3" qualifier="items3" cardinality="many">
+					<modifiers read="true" write="true" search="true" optional="true"/>
+				</sourceElement>
+				<targetElement type="Item4" qualifier="items4" cardinality="many">
+					<modifiers read="true" write="true" search="true" optional="true"/>
+				</targetElement>
+			</relation>
+		</relations>
+
+		<itemtypes>
+			<itemtype code="AllTypesContainer" jaloclass="org.customextension.jalo.AllTypesContainer">
+				<deployment table="allTypesContainer" typecode="11111"/>
+				<attributes>
+					<attribute qualifier="name" type="java.lang.String">
+						<modifiers read="true" write="true" search="true" unique="true" optional="true"/>
+						<persistence type="property"/>
+					</attribute>
+					<attribute qualifier="nonDynamicEnum" type="NonDynamicEnum">
+						<modifiers read="true" write="true" search="true" optional="true"/>
+						<persistence type="property"/>
+					</attribute>
+					<attribute qualifier="map" type="Map">
+						<modifiers read="true" write="true" search="true" optional="true"/>
+						<persistence type="property"/>
+					</attribute>
+					<attribute qualifier="listOfStrings" type="ListOfStrings">
+						<modifiers read="true" write="true" search="true" optional="true"/>
+						<persistence type="property"/>
+					</attribute>
+					<attribute qualifier="one2one" type="Item4">
+						<modifiers read="true" write="true" search="true" optional="true"/>
+						<persistence type="property"/>
+					</attribute>
+					<attribute qualifier="many2many" type="Many2many">
+						<persistence type="property"/>
+					</attribute>
+				</attributes>
+			</itemtype>
+
+			<itemtype code="Item1" jaloclass="org.customextension.jalo.Item1">
+				<deployment table="item1" typecode="11112"/>
+				<attributes>
+					<attribute qualifier="name" type="java.lang.String">
+						<modifiers read="true" write="true" search="true" unique="true" optional="true"/>
+						<persistence type="property"/>
+					</attribute>
+					<attribute qualifier="item4" type="Item4">
+						<modifiers read="true" write="true" search="true" unique="true" optional="true"/>
+						<persistence type="property"/>
+					</attribute>
+				</attributes>
+			</itemtype>
+
+			<itemtype code="Item2" jaloclass="org.customextension.jalo.Item2">
+				<deployment table="item2" typecode="11113"/>
+				<attributes>
+					<attribute qualifier="name" type="java.lang.String">
+						<modifiers read="true" write="true" search="true" optional="true"/>
+						<persistence type="property"/>
+					</attribute>
+				</attributes>
+			</itemtype>
+
+			<itemtype code="Item3" jaloclass="org.customextension.jalo.Item3">
+				<deployment table="item3" typecode="11114"/>
+				<attributes>
+					<attribute qualifier="name" type="java.lang.String">
+						<modifiers read="true" write="true" search="true" unique="true" optional="true"/>
+						<persistence type="property"/>
+					</attribute>
+				</attributes>
+			</itemtype>
+
+			<itemtype code="Item4" jaloclass="org.customextension.jalo.Item4">
+				<deployment table="item4" typecode="11115"/>
+				<attributes>
+					<attribute qualifier="name" type="java.lang.String">
+						<modifiers read="true" write="true" search="true" unique="true" optional="true"/>
+						<persistence type="property"/>
+					</attribute>
+				</attributes>
+			</itemtype>
+		</itemtypes>
+
 </items>
