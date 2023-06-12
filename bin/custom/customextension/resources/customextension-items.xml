@@ -58,7 +58,7 @@
 		</relations>
 
 		<itemtypes>
-			<itemtype code="AllTypesContainer">
+			<itemtype code="AllTypesContainer" jaloclass="org.customextension.jalo.AllTypesContainer">
 				<deployment table="allTypesContainer" typecode="11111"/>
 				<attributes>
 					<attribute qualifier="name" type="java.lang.String">
@@ -87,7 +87,7 @@
 				</attributes>
 			</itemtype>
 
-			<itemtype code="Item1">
+			<itemtype code="Item1" jaloclass="org.customextension.jalo.Item1">
 				<deployment table="item1" typecode="11112"/>
 				<attributes>
 					<attribute qualifier="name" type="java.lang.String">
@@ -101,7 +101,7 @@
 				</attributes>
 			</itemtype>
 
-			<itemtype code="Item2">
+			<itemtype code="Item2" jaloclass="org.customextension.jalo.Item2">
 				<deployment table="item2" typecode="11113"/>
 				<attributes>
 					<attribute qualifier="name" type="java.lang.String">
@@ -111,7 +111,7 @@
 				</attributes>
 			</itemtype>
 
-			<itemtype code="Item3">
+			<itemtype code="Item3" jaloclass="org.customextension.jalo.Item3">
 				<deployment table="item3" typecode="11114"/>
 				<attributes>
 					<attribute qualifier="name" type="java.lang.String">
@@ -121,7 +121,7 @@
 				</attributes>
 			</itemtype>
 
-			<itemtype code="Item4">
+			<itemtype code="Item4" jaloclass="org.customextension.jalo.Item4">
 				<deployment table="item4" typecode="11115"/>
 				<attributes>
 					<attribute qualifier="name" type="java.lang.String">
