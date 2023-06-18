@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Jun 11, 2023, 1:32:29 PM                    ---
+ * --- Generated at Jun 18, 2023, 4:56:53 PM                    ---
  * ----------------------------------------------------------------
  */
 package org.customextension.jalo;
@@ -22,6 +22,7 @@ import java.util.HashMap;
 import java.util.Map;
 import org.customextension.constants.CustomextensionConstants;
 import org.customextension.jalo.AllTypesContainer;
+import org.customextension.jalo.ContactRequest;
 import org.customextension.jalo.Item1;
 import org.customextension.jalo.Item2;
 import org.customextension.jalo.Item3;
@@ -76,6 +77,32 @@ public class CustomextensionManager extends Extension
 	public AllTypesContainer createAllTypesContainer(final Map attributeValues)
 	{
 		return createAllTypesContainer( getSession().getSessionContext(), attributeValues );
+	}
+	
+	public ContactRequest createContactRequest(final SessionContext ctx, final Map attributeValues)
+	{
+		try
+		{
+			ComposedType type = getTenant().getJaloConnection().getTypeManager().getComposedType("ContactRequest");
+			return (ContactRequest)type.newInstance( ctx, attributeValues );
+		}
+		catch( JaloGenericCreationException e)
+		{
+			final Throwable cause = e.getCause();
+			throw (cause instanceof RuntimeException ?
+			(RuntimeException)cause
+			:
+			new JaloSystemException( cause, cause.getMessage(), e.getErrorCode() ) );
+		}
+		catch( JaloBusinessException e )
+		{
+			throw new JaloSystemException( e ,"error creating ContactRequest : "+e.getMessage(), 0 );
+		}
+	}
+	
+	public ContactRequest createContactRequest(final Map attributeValues)
+	{
+		return createContactRequest( getSession().getSessionContext(), attributeValues );
 	}
 	
 	public Item1 createItem1(final SessionContext ctx, final Map attributeValues)

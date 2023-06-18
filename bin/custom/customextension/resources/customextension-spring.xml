@@ -3,12 +3,15 @@
  Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved.
 -->
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:aop="http://www.springframework.org/schema/aop"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
            http://www.springframework.org/schema/beans/spring-beans.xsd
            http://www.springframework.org/schema/aop
-           http://www.springframework.org/schema/aop/spring-aop.xsd">
+           http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
 
 	<!--
 	The hybris platform provides one single Spring application context for beans located at the jalo layer.
@@ -82,5 +85,38 @@
         <property name="mediaService" ref="mediaService"/>
         <property name="flexibleSearchService" ref="flexibleSearchService"/>
     </bean>
-			
+
+
+    <bean id="contactRequestDao" class="org.customextension.dao.impl.ContactRequestDaoImpl">
+        <property name="flexibleSearchService" ref="defaultFlexibleSearchService"/>
+        <property name="modelService" ref="defaultModelService"/>
+    </bean>
+
+    <bean id="allTypesContainerDao" class="org.customextension.dao.impl.AllTypesContainerDaoImpl">
+        <property name="flexibleSearchService" ref="defaultFlexibleSearchService"/>
+        <property name="modelService" ref="defaultModelService"/>
+    </bean>
+
+    <bean id="allTypesContainerService" class="org.customextension.service.impl.AllTypesContainerServiceImpl">
+        <property name="allTypesContainerDao" ref="allTypesContainerDao"/>
+    </bean>
+
+    <bean id="contactRequestService" class="org.customextension.service.impl.ContactRequestServiceImpl">
+        <property name="contactRequestDao" ref="contactRequestDao"/>
+    </bean>
+
+    <bean id="allTypesContainerConverter" class="org.customextension.converter.AllTypesContainerConverter"/>
+
+    <bean id="contactRequestConverter" class="org.customextension.converter.ContactRequestConverter"/>
+
+    <bean id="allTypesContainerFacade" class="org.customextension.facade.impl.AllTypesContainerFacadeImpl">
+        <property name="allTypesContainerConverter" ref="allTypesContainerConverter"/>
+        <property name="allTypesContainerService" ref="allTypesContainerService"/>
+    </bean>
+
+    <bean id="contactRequestFacade" class="org.customextension.facade.impl.ContactRequestFacadeImpl">
+        <property name="contactRequestService" ref="contactRequestService"/>
+        <property name="contactRequestConverter" ref="contactRequestConverter"/>
+    </bean>
+
 </beans>

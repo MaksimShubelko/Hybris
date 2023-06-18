@@ -3,22 +3,19 @@
  */
 package org.customextension.service.impl;
 
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.customextension.constants.CustomextensionConstants.PLATFORM_LOGO_CODE;
-
 import de.hybris.bootstrap.annotations.IntegrationTest;
 import de.hybris.platform.core.model.media.MediaModel;
 import de.hybris.platform.servicelayer.ServicelayerBaseTest;
 import de.hybris.platform.servicelayer.search.FlexibleSearchQuery;
 import de.hybris.platform.servicelayer.search.FlexibleSearchService;
-
-import javax.annotation.Resource;
-
+import org.customextension.service.CustomextensionService;
 import org.junit.Before;
 import org.junit.Test;
 
-import org.customextension.service.CustomextensionService;
-import org.customextension.service.impl.DefaultCustomextensionService;
+import javax.annotation.Resource;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.customextension.constants.CustomextensionConstants.PLATFORM_LOGO_CODE;
 
 
 /**
@@ -36,13 +33,13 @@ public class DefaultCustomextensionServiceIntegrationTest extends ServicelayerBa
 	private FlexibleSearchService flexibleSearchService;
 
 	@Before
-	public void setUp() throws Exception
+	public void setUp()
 	{
 		customextensionService.createLogo(PLATFORM_LOGO_CODE);
 	}
 
 	@Test
-	public void shouldReturnProperUrlForLogo() throws Exception
+	public void shouldReturnProperUrlForLogo()
 	{
 		// given
 		final String logoCode = "customextensionPlatformLogo";

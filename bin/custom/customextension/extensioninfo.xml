@@ -4,7 +4,7 @@
 --><extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
            
     
-    <extension abstractclassprefix="Generated" classprefix="Customextension" jaloLogicFree="true" managername="CustomextensionManager" managersuperclass="de.hybris.platform.jalo.extension.Extension" name="customextension" usemaven="false">
+    <extension abstractclassprefix="Generated" classprefix="Customextension" jaloLogicFree="true" managername="CustomextensionManager" managersuperclass="de.hybris.platform.jalo.extension.Extension" name="customextension" usemaven="true">
                   
       
         
@@ -20,8 +20,7 @@
                       
         
         <webmodule jspcompile="false" webroot="/customextension"/>
-                					
-	
+
         
            
     

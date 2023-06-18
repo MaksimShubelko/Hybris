@@ -1,0 +1,2 @@
+INSERT_UPDATE ContactRequest; message[unique=true]; sender;
+                            ; message             ; sender
