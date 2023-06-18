@@ -7,7 +7,8 @@ import org.customextension.model.ContactRequestModel;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 @UnitTest
 public class ContactRequestConverterTest {
@@ -26,7 +27,7 @@ public class ContactRequestConverterTest {
     public void convert() {
         ContactRequestData contactRequestData = contactRequestConverter.convert(contactRequestModel);
 
-        assert contactRequestData != null;
+        assertNotNull(contactRequestData);
         assertEquals("message", contactRequestData.getMessage());
         assertEquals("sender", contactRequestData.getSender());
     }

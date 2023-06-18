@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
 
 @IntegrationTest
 public class AllTypesContainerFacadeImplIT extends ServicelayerTransactionalTest {

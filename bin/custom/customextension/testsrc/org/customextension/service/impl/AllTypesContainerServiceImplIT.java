@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 @IntegrationTest
 public class AllTypesContainerServiceImplIT extends ServicelayerTransactionalTest {

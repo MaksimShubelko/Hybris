@@ -1,9 +1,9 @@
 package org.customextension.facade.impl;
 
+import de.hybris.platform.servicelayer.exceptions.ModelNotFoundException;
 import lombok.Setter;
 import org.customextension.converter.ContactRequestConverter;
 import org.customextension.data.ContactRequestData;
-import org.customextension.exception.InvalidSearchingResultException;
 import org.customextension.facade.ContactRequestFacade;
 import org.customextension.model.ContactRequestModel;
 import org.customextension.service.ContactRequestService;
@@ -22,7 +22,7 @@ public class ContactRequestFacadeImpl implements ContactRequestFacade {
         ContactRequestModel contactRequestModel = contactRequestService.findBySender(sender);
 
         if (Objects.isNull(contactRequestModel)) {
-            throw new InvalidSearchingResultException("contactRequestModel is null");
+            throw new ModelNotFoundException("contactRequestModel is null");
         }
 
         return contactRequestConverter.convert(contactRequestModel);

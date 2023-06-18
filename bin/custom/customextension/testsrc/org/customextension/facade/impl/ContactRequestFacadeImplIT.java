@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import javax.annotation.Resource;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 @IntegrationTest
 public class ContactRequestFacadeImplIT extends ServicelayerTransactionalTest {

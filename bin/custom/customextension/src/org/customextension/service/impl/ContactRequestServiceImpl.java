@@ -1,9 +1,9 @@
 package org.customextension.service.impl;
 
-import de.hybris.platform.servicelayer.media.NoDataAvailableException;
+import de.hybris.platform.servicelayer.exceptions.AmbiguousIdentifierException;
+import de.hybris.platform.servicelayer.exceptions.ModelNotFoundException;
 import lombok.Setter;
 import org.customextension.dao.ContactRequestDao;
-import org.customextension.exception.InvalidSearchingResultException;
 import org.customextension.model.ContactRequestModel;
 import org.customextension.service.ContactRequestService;
 
@@ -18,11 +18,11 @@ public class ContactRequestServiceImpl implements ContactRequestService {
         final List<ContactRequestModel> requestModels = contactRequestDao.findBySender(sender);
 
         if (requestModels.size() == 0) {
-            throw new NoDataAvailableException("No data was found");
+            throw new ModelNotFoundException("No data was found");
         }
 
         if (requestModels.size() > 1) {
-            throw new InvalidSearchingResultException("Sender isn't unique");
+            throw new AmbiguousIdentifierException("Sender isn't unique");
         }
 
         return requestModels.get(0);

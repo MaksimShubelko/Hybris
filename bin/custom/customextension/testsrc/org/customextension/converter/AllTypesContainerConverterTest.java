@@ -10,7 +10,8 @@ import org.junit.Test;
 
 import java.util.Collections;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 @UnitTest
 public class AllTypesContainerConverterTest {
@@ -30,7 +31,7 @@ public class AllTypesContainerConverterTest {
     public void convert() {
         AllTypesContainerData allTypesContainerData = allTypesContainerConverter.convert(allTypesContainerModel);
 
-        assert allTypesContainerData != null;
+        assertNotNull(allTypesContainerData);
         assertNotNull(allTypesContainerData.getListOfStrings());
         assertEquals(Collections.emptyList(), allTypesContainerData.getListOfStrings());
         assertEquals(Collections.emptyMap(), allTypesContainerData.getMap());
