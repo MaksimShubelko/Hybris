@@ -8,4 +8,5 @@ import java.util.List;
 public interface ContactRequestDao extends Dao {
 
      List<ContactRequestModel> findBySender(final String sender);
+
 }

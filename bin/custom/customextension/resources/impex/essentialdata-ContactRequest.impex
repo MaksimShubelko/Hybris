@@ -1,2 +1,11 @@
 INSERT_UPDATE ContactRequest; message[unique=true]; sender;
                             ; message             ; sender
+
+INSERT_UPDATE CronJob; code[unique=true]    ; job(code)          ; singleExecutable; sessionLanguage(isocode)
+                     ; generateTokenJob     ; generateTokenJob   ; false           ; en
+
+INSERT_UPDATE Trigger; cronJob(code)[unique=true]   ; cronExpression
+                     ; generateTokenJob        ; * 30 * * * ? *
+
+INSERT_UPDATE MinConstraint;id[unique=true]             ;severity(code,itemtype(code))  ;active ;annotation                         ;descriptor(enclosingType(code),qualifier)  ;message[lang=ru]                                   ;message[lang=en]                   ;value
+                           ;AlbumSalesMustNotBeNegative ;ERROR:Severity                 ;true   ;javax.validation.constraints.Min   ;Band:albumSales                            ;Продaжи альбомов не должны быть отрицательными    ;Album sales must not be negative    ;0

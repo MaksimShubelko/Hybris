@@ -103,6 +103,7 @@
 
     <bean id="contactRequestService" class="org.customextension.service.impl.ContactRequestServiceImpl">
         <property name="contactRequestDao" ref="contactRequestDao"/>
+        <property name="configurationService" ref="configurationService"/>
     </bean>
 
     <bean id="allTypesContainerConverter" class="org.customextension.converter.AllTypesContainerConverter"/>
@@ -119,4 +120,37 @@
         <property name="contactRequestConverter" ref="contactRequestConverter"/>
     </bean>
 
+    <bean id="customOrderAttributeHandler" class="org.customextension.handler.CustomOrderAttributeHandler"/>
+
+    <bean id="newBandEventListener" class="org.customextension.events.NewBandEventListener">
+        <property name="modelService" ref="modelService"/>
+        <property name="tenantService" ref="defaultTenantService"/>
+        <property name="clusterService" ref="clusterService"/>
+    </bean>
+
+    <bean id="bandAlbumSalesEventListener" class="org.customextension.events.BandAlbumSalesEventListener">
+        <property name="tenantService" ref="defaultTenantService"/>
+        <property name="clusterService" ref="clusterService"/>
+        <property name="modelService" ref="modelService"/>
+    </bean>
+
+    <bean class="org.customextension.interceptors.BandAlbumSalesInterceptor" id="bandAlbumSalesInterceptor">
+        <property name="eventService" ref="defaultEventService"/>
+    </bean>
+
+    <bean id="bandInterceptorMapping" class="de.hybris.platform.servicelayer.interceptor.impl.InterceptorMapping">
+        <property name="interceptor" ref="bandAlbumSalesInterceptor"/>
+        <property name="typeCode" value="Band"/>
+    </bean>
+
+    <bean class="org.customextension.dao.impl.TokenKeeperDaoImpl" id="tokenKeeperDao">
+        <property name="flexibleSearchService" ref="defaultFlexibleSearchService"/>
+    </bean>
+
+    <bean class="org.customextension.job.GenerateTokenJob" id="generateTokenJob">
+        <property name="flexibleSearchService" ref="defaultFlexibleSearchService"/>
+        <property name="modelService" ref="modelService"/>
+        <property name="sessionService" ref="defaultSessionService"/>
+        <property name="tokenKeeperDao" ref="tokenKeeperDao"/>
+    </bean>
 </beans>

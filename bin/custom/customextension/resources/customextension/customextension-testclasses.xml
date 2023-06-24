@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><testclasses><customextension><testclass>org.customextension.jalo.CustomextensionTest</testclass><testclass>org.customextension.facade.impl.AllTypesContainerFacadeImplIT</testclass><testclass>org.customextension.converter.ContactRequestConverterTest</testclass><testclass>org.customextension.dao.impl.ContactRequestDaoImplTest</testclass><testclass>org.customextension.service.impl.ContactRequestServiceImplIT</testclass><testclass>org.customextension.service.impl.DefaultCustomextensionServiceIntegrationTest</testclass><testclass>org.customextension.converter.AllTypesContainerConverterTest</testclass><testclass>org.customextension.facade.impl.ContactRequestFacadeImplIT</testclass><testclass>org.customextension.service.impl.AllTypesContainerServiceImplIT</testclass><testclass>org.customextension.dao.impl.AllTypesContainerDaoImplTest</testclass></customextension></testclasses>
+<?xml version="1.0" encoding="utf-8"?>
+<testclasses>
+    <customextension>
+        <testclass>org.customextension.jalo.CustomextensionTest</testclass>
+        <testclass>org.customextension.facade.impl.AllTypesContainerFacadeImplIT</testclass>
+        <testclass>org.customextension.converter.ContactRequestConverterTest</testclass>
+        <testclass>org.customextension.dao.impl.ContactRequestDaoImplTest</testclass>
+        <testclass>org.customextension.handler.CustomOrderAttributeHandlerIT</testclass>
+        <testclass>org.customextension.service.impl.ContactRequestServiceImplIT</testclass>
+        <testclass>org.customextension.service.impl.DefaultCustomextensionServiceIntegrationTest</testclass>
+        <testclass>org.customextension.converter.AllTypesContainerConverterTest</testclass>
+        <testclass>org.customextension.dao.impl.AllTypesContainerDaoImplTest</testclass>
+        <testclass>org.customextension.events.BandAlbumSalesEventListenerIT</testclass>
+        <testclass>org.customextension.events.NewBandEventListenerIT</testclass>
+        <testclass>org.customextension.facade.impl.ContactRequestFacadeImplIT</testclass>
+        <testclass>org.customextension.service.impl.AllTypesContainerServiceImplIT</testclass>
+        <testclass>org.customextension.constraint.NotLoremIpsumConstrainIT</testclass>
+    </customextension>
+</testclasses>
