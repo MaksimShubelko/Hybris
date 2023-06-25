@@ -7,15 +7,15 @@ eclipsebin
 gensrc
 
 # Folders to ignore at the root of the repository
-hybris/roles/
-hybris/log/
-hybris/temp/
-hybris/data/
-hybris/config/local-config/99-local.properties
+roles/
+log/
+temp/
+data/
+config/local-config/99-local.properties
 
 # only allow custom extension
-hybris/bin/*
-!hybris/bin/custom/
+/bin/*
+!/bin/custom/
 
 # SonarQube scanner directory
 .scannerwork
@@ -73,10 +73,10 @@ wro_addons.xml
 /dependencies/
 /cloud-extension-pack/
 gradle.properties
-hybris/config/local.properties
+config/local.properties
 
 # developer-specific properties
-hybris/config/local-config/99-local.properties/log
+config/local-config/99-local.properties/log
 /temp
 /bin/
 !/bin/custom
