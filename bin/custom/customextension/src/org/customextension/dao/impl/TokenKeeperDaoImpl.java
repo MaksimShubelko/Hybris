@@ -6,6 +6,7 @@ import org.customextension.dao.TokenKeeperDao;
 import org.customextension.model.TokenKeeperModel;
 
 import java.util.List;
+import java.util.Optional;
 
 @Setter
 public class TokenKeeperDaoImpl implements TokenKeeperDao {
@@ -20,13 +21,12 @@ public class TokenKeeperDaoImpl implements TokenKeeperDao {
     private FlexibleSearchService flexibleSearchService;
 
     @Override
-    public TokenKeeperModel findFirst() {
+    public Optional<TokenKeeperModel> findFirst() {
         List<TokenKeeperModel> tokenKeeperModels = flexibleSearchService
                 .<TokenKeeperModel>search(FIND_FIRST_TOKEN_KEEPER)
                 .getResult();
 
         return tokenKeeperModels.stream()
-                .findFirst()
-                .orElse(null);
+                .findFirst();
     }
 }
