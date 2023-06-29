@@ -82,6 +82,15 @@
                 <modifiers read="true" write="true" search="true" optional="true"/>
             </targetElement>
         </relation>
+
+        <relation code="Tour2Producer" localized="false">
+            <sourceElement type="Tour" qualifier="tours" collectiontype="set" cardinality="many" ordered="false">
+                <modifiers read="true" write="true" search="true" optional="true"/>
+            </sourceElement>
+            <targetElement type="Producer" qualifier="producer" cardinality="one">
+                <modifiers read="true" write="true" search="true" optional="true"/>
+            </targetElement>
+        </relation>
     </relations>
 
     <itemtypes>
@@ -285,6 +294,39 @@
                     <defaultvalue>
                         customextension.constraint.NotLoremIpsum.class
                     </defaultvalue>
+                </attribute>
+            </attributes>
+        </itemtype>
+
+        <itemtype code="Tour"
+                  autocreate="true"
+                  generate="true"
+                  jaloclass="org.customextension.jalo.Tour">
+            <deployment table="tours" typecode="24249"/>
+            <attributes>
+                <attribute qualifier="code" type="java.lang.String">
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="name" type="java.lang.String">
+                    <persistence type="property"/>
+                </attribute>
+            </attributes>
+        </itemtype>
+
+        <itemtype code="Producer"
+                  autocreate="true"
+                  generate="true"
+                  jaloclass="org.customextension.jalo.Producer">
+            <deployment table="producers" typecode="24248"/>
+            <attributes>
+                <attribute qualifier="code" type="java.lang.String">
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="firstname" type="java.lang.String">
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="lastname" type="java.lang.String">
+                    <persistence type="property"/>
                 </attribute>
             </attributes>
         </itemtype>
