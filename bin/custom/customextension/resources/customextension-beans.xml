@@ -76,4 +76,10 @@
 		<property name="listOfStrings" type="java.util.List&lt;String&gt;"/>
 		<property name="item4" type="org.customextension.data.Item4Data"/>
 	</bean>
+
+	<bean class="org.customextension.data.ProducerData">
+		<property name="code" type="String"/>
+		<property name="firstname" type="String"/>
+		<property name="lastname" type="String"/>
+	</bean>
 </beans>

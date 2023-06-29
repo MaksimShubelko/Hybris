@@ -1,0 +1,7 @@
+INSERT_UPDATE Producer; code[unique=true];  firstname; lastname;
+                      ; p_code_1         ;  John     ; Smith
+                      ; p_code_2         ;  Mike     ; Smith
+
+INSERT_UPDATE Tour; code[unique=true];  name    ; producer(code)
+                  ; t_code_1         ;  Minsk   ; p_code_1
+                  ; t_code_2         ;  Warsaw  ; p_code_2

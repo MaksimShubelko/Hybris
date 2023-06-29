@@ -153,4 +153,19 @@
         <property name="sessionService" ref="defaultSessionService"/>
         <property name="tokenKeeperDao" ref="tokenKeeperDao"/>
     </bean>
+
+    <bean id="producerDao" class="org.customextension.dao.impl.ProducerDaoImpl">
+        <property name="flexibleSearchService" ref="defaultFlexibleSearchService"/>
+    </bean>
+
+    <bean id="producerConverter" class="org.customextension.converter.ProducerConverter"/>
+
+    <bean id="producerService" class="org.customextension.service.impl.ProducerServiceImpl">
+        <property name="producerDao" ref="producerDao"/>
+    </bean>
+
+    <bean id="producerFacade" class="org.customextension.facade.impl.ProducerFacadeImpl">
+        <property name="producerConverter" ref="producerConverter"/>
+        <property name="producerService" ref="producerService"/>
+    </bean>
 </beans>
